@@ -1,4 +1,10 @@
-
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;
+}
+h1{
+    font-family: sans-serif;
+}
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -19,7 +25,12 @@ li{
     text-transform: uppercase;
 }
 .linea{
-    border: solid #f56a6a;
+    border-bottom: solid #f56a6a;
+}
+.borde-bajo{
+    display: inline-flex;
+    border-bottom: solid#f56a6a;
+    padding: 0 0 1em 0;    
 }
 a{
     border: 2px solid #f67b7c;
@@ -29,8 +40,13 @@ a{
     text-decoration: none;
     color: #f67b7c;
 }
+a:hover{
+    border: solid #5cace2;
+    color: #5cace2;
+}
 .grid-container img{
-    border-radius: 5%;
+    border-radius: 5em;
+    padding: 0 3em;
     width: 35em;
 }
 .grid-container2{
@@ -40,4 +56,9 @@ a{
 .grid-container2-1{
     display: grid;
     grid-template-columns: 20% 80%;
+}
+.grid-container2-1 i{
+    color: #f56a6a;
+    font-size: 3em;
+    padding: 0.5em 0 0.5em 0.5em;
 }
